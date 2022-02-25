@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ula Assignment">
+    <test name="UI testcases">
+        <classes>
+            <class name="testcases.UI.SignInTestCases" />
+            <class name="testcases.UI.SignUpTestCases"/>
+        </classes>
+    </test>
+    
+    <test name="API testcases">
+        <classes>
+            <class name="testcases.API.APITesting"/>
+        </classes>
+    </test>
+
+</suite>
