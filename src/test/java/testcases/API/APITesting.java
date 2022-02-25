@@ -21,7 +21,6 @@ public class APITesting {
         Assert.assertEquals(jsonPath.get(" price"),Float.valueOf(propertyReader.getPropertyValue("PRICE")));
         Assert.assertEquals(jsonPath.get(" description"),propertyReader.getPropertyValue("DESCRIPTION"));
         Assert.assertEquals(jsonPath.get(" category"),propertyReader.getPropertyValue("CATEGORY"));
-
     }
 
     @Test(description = "Get all categories and validate with expected result")

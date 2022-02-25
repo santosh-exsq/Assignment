@@ -31,14 +31,4 @@ public class SignInPage {
     @FindBy(xpath = "//span[@class='a-list-item']")
     public WebElement wrongEmailErrorMessage;
 
-
-    public void enterEmailOrMobileNumber(String emailId){
-        emailIdField.sendKeys(emailId);
-        System.out.println("Entered "+emailId+" in email or mobile field");
-    }
-
-    public void clickOnContinueButton(){
-        continueButton.click();
-        System.out.println("Clicked on Continue button");
-    }
 }
